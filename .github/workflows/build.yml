@@ -4,7 +4,7 @@ jobs:
     runs-on: ubuntu-latest
     container: node:16
     steps: 
+      - run: echo "Ferdinand Josef Bierbaum Aguilar"
       - run: node --version
-      - run: npm --version
+      - run: echo "Expediente es 739162"
       - uses: actions/checkout@v4
-      - run: node app.js
